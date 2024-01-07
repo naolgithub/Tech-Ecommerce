@@ -1,0 +1,51 @@
+name: tech_ecommerce
+description: "A new Flutter project."
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.2.3 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.2
+  carousel_slider: ^4.2.1
+  contained_tab_bar_view: ^0.8.0
+  flutter_staggered_grid_view: ^0.7.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^2.0.0
+
+
+flutter:
+
+
+  uses-material-design: true
+
+  # To add assets to your application, add an assets section, like this:
+  assets:
+    - assets/images/
+    - assets/images/splash.png
+
+  fonts:
+    - family: Raleway
+      fonts:
+          - asset: assets/fonts/Raleway-Regular.ttf
+            weight: 400
+          - asset: assets/fonts/Raleway-Bold.ttf
+            weight: 700
+          - asset: assets/fonts/Raleway-ExtraBold.ttf
+            weight: 800
+          - asset: assets/fonts/Raleway-SemiBold.ttf
+            weight: 600
+  #   - family: Trajan Pro
+  #     fonts:
+  #       - asset: fonts/TrajanPro.ttf
+  #       - asset: fonts/TrajanPro_Bold.ttf
+  #         weight: 700
